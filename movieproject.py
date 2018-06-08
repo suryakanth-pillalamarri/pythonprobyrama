@@ -1,28 +1,27 @@
+
 import media
 
 import fresh_tomatos
 
-bahubali=media.Movie("BAHUBALI",
+bn=media.Movie("BHARATH ANE NANU",
 
-                     'A STOREY OF A KING',
+                     'A STOREY OF A CHEIF MINISTER',
 
-                     'https://sp.yimg.com/ib/th?id=OIP.HD1It_lzt0fdVmj5TbiRwwDKEs&pid=15.1&rs=1&c=1&qlt=95&w=81&h=120',
-
-                     'https://www.youtube.com/watch?v=qD-6d8Wo3do')
+                     'index.jpeg',
+                     'https://www.youtube.com/watch?v=KMWS5y2gZ6E')
 
 Om_namo_venkatesaya=media.Movie("OM NAMO VENKATESAYA",
 
                      'A STOREY OF A DECIPLE',
 
-                    'https://tse3.mm.bing.net/th?id=OIP.vMvqp_LDK0ON_jV7HtozWgD8D3&pid=15.1&P=0&w=172&h=170',
-
-                     'https://www.youtube.com/watch?v=Tcy4M7P2CRI')
+                    'omnamovenkatesaya.jpeg' ,
+                     'https://www.youtube.com/watch?v=Tcy4M7P2CRI&t=3s')
 
 jai_lavakusa=media.Movie("JAI LAVA KUSA",
 
                          'GOOD RELATION BETWEEN BROTHERS',
 
-                         'https://tse2.mm.bing.net/th?id=OIP.9uLooRFMAmfe-aC_cP1UdQE_DD&pid=15.1&P=0&w=321&h=197',
+                         'jai_lava_kusa_new_posters_and_photos_1309170321_04.jpg',
 
                          'https://www.youtube.com/watch?v=5N-wb-OGa1I')
 
@@ -40,10 +39,9 @@ avathar2=media.Movie('AVATAR',
 
                     'http://cdn.breathecast.com/data/images/full/25000/avatar-2-return-to-pandora-poster.jpg?w=600',
 
-                     'https://www.youtube.com/watch?v=ZUgjaUZBP7o')
-
-
-
-movies=[bahubali,Om_namo_venkatesaya,jai_lavakusa,mahabarath,avathar2]#war_with_planet_of_apes]
+                     'https://www.youtube.com/watch?v=5PSNL1qE6VY')
+movies=[bn,Om_namo_venkatesaya,jai_lavakusa,mahabarath,avathar2]#war_with_planet_of_apes]
 
 fresh_tomatos.open_movies_page(movies)
+
+
